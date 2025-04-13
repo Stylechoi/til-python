@@ -25,14 +25,8 @@
 | `pygame` | 초기엔 성공했지만 백그라운드 처리와 충돌 발생 |
 | ✅ `python-vlc` | 유일하게 윈도우에서 “실제 출력 신호”로 감지됨 |
 
-## 🧪 예시 코드
 
-```python
-import vlc
-import time
+## 🗓 오늘의 회고 보러가기
 
-player = vlc.MediaPlayer("whitenoise.mp3")
-player.play()
+👉 [2025-04-13 개발자 일기 ✍️](https://github.com/Stylechoi/retrospective-journal/blob/main/2025-04-13.md)
 
-while True:
-    time.sleep(60)
